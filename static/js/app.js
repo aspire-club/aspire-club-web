@@ -22,10 +22,10 @@ var app = angular.module('aspire-club', []).
           controller: ProjectCtrl,
           activetab: 'projects'
         }).
-        when('/privacy', {
-          templateUrl: 'static/pages/privacy.html',
-          controller: PrivacyCtrl,
-          activetab: 'privacy'
+        when('/gallery', {
+          templateUrl: 'static/pages/gallery.html',
+          controller: GalleryCtrl,
+          activetab: 'gallery'
         }).
         when('/about', {
           templateUrl: 'static/pages/about.html',
